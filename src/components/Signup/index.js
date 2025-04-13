@@ -9,7 +9,6 @@ const SignUp = () => {
     email: '',
     password: '',
   });
-  const [error, setError] = useState('');
   const navigate = useNavigate();
   axios.defaults.withCredentials = true;
 
